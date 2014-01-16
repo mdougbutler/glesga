@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Glesga Insult Generator</title>
-	<link href="style.css" rel="stylesheet">
-	<meta charset="utf-8">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Glesga Insult Generator</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
 	<body>
-	<a href="http://imgur.com/TesD8ve"><img src="http://i.imgur.com/TesD8ve.png" title="Hosted by imgur.com"/></a>		
-	<h2>Glesga Insults</h2>
-	<p id="phrase">If ye wur a McDonald's snack ye would be a Fillet-A-Fish... Naebuddy likes ye, but yer always there. </p>
-	 	<a href="javascript: window.location.reload();">(refresh)</a>
-	<ul>
-	<li><a href="about.html">about</a></li>
-	<li><a href="feedback.html">feedback</a></li>
-	<li><a href="#">share</a></li>
-	<li><a href="#">tweet this</a></li>
-	
-</ul>
-<script>
-var phrases = [
-	'Hey, glaikit, you’ve got a face like a hoarse in the huff.',
-	'You chin ae yours looks like a docker’s kneecap.',
-	'When they wur gein oot bellies you jumped the queue cause you thoat they said jellies, didn’t ye, fatso.',
-	'Yer feet are that big, that if ye threw a shoe in the Clyde it wid be a hazard tae shippin.',
-	'Wae they ears ye look like a taxi wi the doors open.',
-	'Cheer up, son, ye’ve a face like a wet Ferr Friday.',
-	'If ye wur a McDonald’s snack ye would be a Fillet-A-Fish…Naebuddy likes ye, but yer always there.',
-	'WHAT THE HELL IS THAT OAN YER NECK?! Aw, right, it’s jist yer heid.',
-	'Whatever kind of look ye were going for, ye missed.',
-	'Tesco needs you. They’ve run oot ae stupit.',
-	'If yer looking for sympathy jimmy, you’ll find it in the dictionary between shit and syphilis.',
-	'If ah wanted tae hear from an arsehole ah wid huv farted.',
-	'You’ve goat merr issues than the Evenin’ Times.',
-	'Jim, Ah could eat a bowl ae alphabet soup an shite a better argument than that.',
-	'Ah don’t know whit makes ye that stupit, but it’s workin.',
-	'If your brain wis chocolate it widny fill a Smartie.',
-	'You’ve goat a mooth oan ye like a camel eating toast.',
-	'You wid be oot yer depth in a car park puddle.',
-	'Instant eejit. Jist add alcohol.',
-	'You've goat a face like a camel eatin' sherbet.',
-	'You've goat a face like a chewed caramel.',
-	'You've goat a face like a bag of spanners.',
-	'You've goat a face like a bulldog chewing a wasp.',
-	'You've goat a face like a burst couch.',
-	'You've goat a face like a burst tomato.',
-	'You've goat a face like a dug lickin' pish aff a nettle.',
-	'You've goat a face like a Halloween tumshie.',
-	'You've goat a face like a melted wellie.',
-	'You've goat a face like a welder's binchi.',
-	'Hey you, aye, you, the oxygen thief',
-  ];
- 
-document.getElementById('phrase').innerHTML = phrases[Math.floor(Math.random() * phrases.length)];
 
- 	</script>
+		<img src="img/flag.png">
+		
+		<h2>Glesga Insults</h2>
+		
+		<p id="phrase"></p>
+	 	
+	 	<a href="javascript: window.location.reload();">(refresh)</a>
+		
+		<ul>
+			<li><a href="about.html">about</a></li>
+			<li><a href="feedback.html">feedback</a></li>
+			<li><a href="#">share</a></li>
+			<li><a href="#">tweet this</a></li>
+		</ul>
+		
+		<script>
+			var phrases = [
+				"Hey, glaikit, you've got a face like a hoarse in the huff.",
+				"You chin ae yours looks like a docker's kneecap.",
+				"When they wur gein oot bellies you jumped the queue cause you thoat they said jellies, didn't ye, fatso.",
+				"Yer feet are that big, that if ye threw a shoe in the Clyde it wid be a hazard tae shippin.",
+				"Wae they ears ye look like a taxi wi the doors open.",
+				"Cheer up, son, ye've a face like a wet Ferr Friday.",
+				"If ye wur a McDonald's snack ye would be a Fillet-A-Fish... Naebuddy likes ye, but yer always there.",
+				"WHAT THE HELL IS THAT OAN YER NECK?! Aw, right, it's jist yer heid.",
+				"Whatever kind of look ye were going for, ye missed.",
+				"Tesco needs you. They've run oot ae stupit.",
+				"If yer looking for sympathy jimmy, you'll find it in the dictionary between shit and syphilis.",
+				"If ah wanted tae hear from an arsehole ah wid huv farted.",
+				"You've goat merr issues than the Evenin' Times.",
+				"Jim, Ah could eat a bowl ae alphabet soup an shite a better argument than that.",
+				"Ah don't know whit makes ye that stupit, but it's workin.",
+				"If your brain wis chocolate it widny fill a Smartie.",
+				"You've goat a mooth oan ye like a camel eating toast.",
+				"You wid be oot yer depth in a car park puddle.",
+				"Instant eejit. Jist add alcohol.",
+				"You've goat a face like a camel eatin' sherbet.",
+				"You've goat a face like a chewed caramel.",
+				"You've goat a face like a bag of spanners.",
+				"You've goat a face like a bulldog chewing a wasp.",
+				"You've goat a face like a burst couch.",
+				"You've goat a face like a burst tomato.",
+				"You've goat a face like a dug lickin' pish aff a nettle.",
+				"You've goat a face like a Halloween tumshie.",
+				"You've goat a face like a melted wellie.",
+				"You've goat a face like a welder's binchi.",
+				"Hey you, aye, you, the oxygen thief"
+		  ];
+		 
+			document.getElementById('phrase').innerHTML = phrases[Math.floor(Math.random() * phrases.length)];
+		</script>
 	</body>
 </html>
