@@ -1,37 +1,45 @@
-h2 {
-	color: black;
-	text-align: center;
-	background: white;
-	font-family: helvetica;
-	font-size: 28px;
-}
-img {
-	margin: 40px 0px 0px 0px;
-}
-p {
-	color: black;
-	text-align: center;
-	background: white;
-	font-family: helvetica;
-	font-size: 18px;
-	font-style: bold;
-}
-body {
-	background: white;
-	color: black;
-	text-align: center;
-}
-ul {
-	padding: 10px;
-	background: white;
-}
-li {
-	display: inline;
-	padding: 0px 10px 0px 10px;
-}
-a {
-	color: blue;
-	font-size: 15px;
-	font-family: helvetica;
+@import url("//fonts.googleapis.com/css?family=Lato");
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  text-align: center;
+  font: 14px 'Lato', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -155px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 15px 0 20px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a {
+  display: inline-block;
+  color: #0065bd;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 6px;
+}
+
+nav a {
+  margin: 0 5px;
+}
